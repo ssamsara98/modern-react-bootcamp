@@ -4,9 +4,8 @@
   justify-content: flex-start;
   height: 6vh;
 }
-
 .logo {
-  margin: 15px;
+  margin-right: 15px;
   padding: 0 13px;
   font-size: 22px;
   background-color: #eceff1;
@@ -23,7 +22,7 @@
 
 .slider {
   width: 340px;
-  margin: 0 20px;
+  margin: 0 10px;
   display: inline-block;
 }
 
@@ -37,14 +36,14 @@
 .rc-slider-handle:active,
 .rc-slider-handle:focus,
 .rc-slider-handle:hover {
-  background-color: greenyellow;
+  background-color: green;
   outline: none;
   border: 2px solid green;
   box-shadow: none;
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   margin-left: -7px;
-  margin-top: -5px;
+  margin-top: -3px;
 }
 
 .select-container {

@@ -1,5 +1,5 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles } from "@material-ui/styles";
 
 const styles = {
   root: {
@@ -8,7 +8,7 @@ const styles = {
     borderRadius: "5px",
     padding: "0.5rem",
     position: "relative",
-    overflow: "",
+    overflow: "hidden",
     "&:hover": {
       cursor: "pointer",
     },
@@ -23,7 +23,7 @@ const styles = {
   title: {
     display: "flex",
     justifyContent: "space-between",
-    alignItem: "center",
+    alignItems: "center",
     margin: "0",
     color: "black",
     paddingTop: "0.5rem",
@@ -40,7 +40,7 @@ const styles = {
     display: "inline-block",
     margin: "0 auto",
     position: "relative",
-    marginBottom: "-4px",
+    marginBottom: "-3.5px",
   },
 };
 

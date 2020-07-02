@@ -1,7 +1,6 @@
-import React from 'react'
-
-export default function PaletteFooter(props) {
-  const {paletteName, emoji} = props;
+import React from "react";
+function PaletteFooter(props) {
+  const { paletteName, emoji } = props;
   return (
     <footer className="Palette-footer">
       {paletteName}
@@ -9,3 +8,4 @@ export default function PaletteFooter(props) {
     </footer>
   );
 }
+export default PaletteFooter;
