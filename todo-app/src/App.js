@@ -1,15 +1,8 @@
-import React, { Component } from 'react';
-import TodoList from './TodoList';
-import './App.css';
+import React from 'react';
+import TodoApp from './TodoApp';
 
-class App extends Component {
-	render() {
-		return (
-			<div>
-				<TodoList />
-			</div>
-		);
-	}
+function App() {
+	return <TodoApp />;
 }
 
 export default App;
